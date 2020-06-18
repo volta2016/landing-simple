@@ -1,13 +1,20 @@
 body {
     font-family: 'Open Sans', sans-serif!important;
+    color: rgba(0,0,0,.5)!important;
+    height: 100vh!important;
 }
+button {
+    outline: none!important;
+    border: none!important;
+}
+
 .logo {
     width: 90px;
 }
 .home {
     height: 21px;
 }
-.vh {
+.h {
     height: 100vh;
 }
 .btn-b {
@@ -32,6 +39,7 @@ body {
     font-size: 88px;
     font-weight: 700!important;
     color: rgba(0,0,0,.5)!important;
+    margin-top: 12rem;
 }
 .sub-title {
     font-size: 28px;
@@ -43,9 +51,23 @@ body {
     font-size: 32px;
     font-weight: 900;
 }
+/* perfil */
+.perfil {
+    width: 89px;
+    height: 89px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.icon-social {
+    height: 30px;
+}
+.title-s {
+    font-size: 18px;
+    font-weight: 700;
+}
 
 
-
+/* media query */
 @media (max-width: 576px) { 
     .title-h {
         font-size: 36px;
