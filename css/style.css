@@ -70,13 +70,16 @@ button {
 /* media query */
 @media (max-width: 576px) { 
     .title-h {
-        font-size: 36px;
+        font-size: 36px!important;
     }
     .sub-title {
         font-size: 20px;
     }
     .date {
         font-size: 22px;
+    }
+    h1 {
+        font-size: 2rem!important;
     }
  }
 
