@@ -8,6 +8,14 @@ button {
     border: none!important;
 }
 
+a {
+    color: #B6BB02!important;
+}
+
+a:hover {
+	color: #9d9f47!important;
+}
+
 .logo {
     width: 90px;
 }
@@ -39,7 +47,7 @@ button {
     font-size: 88px;
     font-weight: 700!important;
     color: rgba(0,0,0,.5)!important;
-    margin-top: 12rem;
+    margin-top: 6rem;
 }
 .sub-title {
     font-size: 28px;
@@ -67,6 +75,16 @@ button {
 }
 
 
+footer {
+    height: 50px;
+    text-align: center;
+}
+
+footer small {
+    color: white;
+   
+}
+
 /* media query */
 @media (max-width: 576px) { 
     .title-h {
@@ -83,15 +101,15 @@ button {
     }
  }
 
-// Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
     .left-mb {
         padding: .5 1rem;
     }
  }
 
-// Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { ... }
 
-// Extra large devices (large desktops, 1200px and up)
+/* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
